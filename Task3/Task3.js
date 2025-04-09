@@ -1,9 +1,7 @@
 let array = [1, 2, 3, 4]
-reverse(array);
-console.log(array);
+console.log(reverse(array));
 array = ['a', 'b', 'c']
-reverse(array);
-console.log(array);
+console.log(reverse(array));
 
 function reverse(array) {
     array.reverse();
