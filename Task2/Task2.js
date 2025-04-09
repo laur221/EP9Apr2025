@@ -1,10 +1,10 @@
 const numar = Number(prompt("Scrieti numarul de verificare:"));
-let nrprim = true;
+let esteprim = true;
 
 if (numar > 1) {
     for (let i = 2; i <= numar / 2; i++) {
         if (numar % i == 0) {
-            nrprim = false;
+            esteprim = false;
             break;
         }
     }
@@ -16,8 +16,7 @@ else {
     console.log(numar + " nu este numar prim.");
 }
 
-
-if (nrprim) {
+if (esteprim) {
     console.log(numar + " este numar prim.");
 }
 else {
