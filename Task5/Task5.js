@@ -12,6 +12,5 @@ console.log(personArray)
 console.log(countryArray)
 
 function convertToArray(person, country) {
-    return Object.entries(person)
-    return Object.entries(country)
+    return Object.entries(person, country)
 }
